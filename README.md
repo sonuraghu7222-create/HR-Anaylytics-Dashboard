@@ -1,58 +1,88 @@
-# HR Analytics Dashboard (Tableau)
+# HR Analytics Dashboard  
 
-**Project:** HR Analytics Dashboard built in Tableau using a synthetic dataset of 8,950 employee records (2015–2024).
-
-**Author:** Your Name — @your_github_username
+**A Tableau-powered interactive dashboard to analyze workforce trends, performance, and HR metrics.**  
 
 ---
 
-## Overview
-This repository contains:
-- `data/hr_dataset_8950.csv` — Synthetic HR dataset used for the analysis.
-- `workbook/hr_dashboard.twbx` — Packaged Tableau workbook (open in Tableau Desktop / Tableau Public).
-- `images/` — Screenshots used for the README / previews.
-- `DATA_DICTIONARY.md` — Field descriptions.
-- `LICENSE` — MIT License.
-
-The dashboard explores:
-- Workforce demographics (gender, education, state/city)
-- Hiring & termination trends (2015–2024)
-- Departmental salary distributions and adjusted salary comparisons
-- Performance ratings and overtime analysis
+## Overview  
+This project focuses on building an end-to-end HR Analytics solution using Tableau. The goal is to explore employee-related data, uncover insights, and assist HR teams in making data-driven decisions.  
 
 ---
 
-## Preview
-![Dashboard overview](images/screenshot_overview.png)
+## Problem Statement  
+HR departments often struggle with fragmented data and lack of visibility into employee performance, attrition, and workforce distribution. This project solves the problem by creating a centralized dashboard that provides clear, actionable insights.  
 
 ---
 
-## How to view
-1. Download the repository.
-2. Open `workbook/hr_dashboard.twbx` in **Tableau Desktop** or publish to **Tableau Public**.
-3. Or explore the screenshots in `/images`.
-
-**Tableau Public / Live Link:** [Insert your Tableau Public link here]
-
----
-
-## Files
-- `data/hr_dataset_8950.csv` — CSV dataset (synthetic).
-- `workbook/hr_dashboard.twbx` — Tableau packaged workbook.
-- `images/` — Dashboard screenshots.
-- `DATA_DICTIONARY.md` — Field definitions and constraints.
+## Dataset  
+- **Source**: Synthetic HR dataset (8,950 employee records)  
+- **Fields Included**:  
+  - Employee ID, Name, Gender  
+  - State & City (India)  
+  - Hire Date & Termination Date  
+  - Department & Job Title  
+  - Education Level  
+  - Performance Rating  
+  - Overtime  
+  - Salary & Adjusted Salary  
+  - Birth Date  
 
 ---
 
-## Notes on data & privacy
-The dataset is synthetic and intended for demo and learning purposes only.
+## Tools and Technologies  
+- **Data Preparation**: Python (Pandas, NumPy)  
+- **Visualization**: Tableau  
+- **Version Control**: Git & GitHub  
 
 ---
 
-## License
-This project is licensed under the MIT License — see `LICENSE` for details.
+## Method  
+1. Generated a synthetic HR dataset with realistic distributions and dependencies.  
+2. Cleaned and structured the data for Tableau.  
+3. Designed interactive dashboards in Tableau with filters, KPIs, and visual storytelling.  
+4. Published results and prepared documentation for LinkedIn & GitHub.  
 
 ---
 
-## Contact
-If you use this project or have questions, open an issue or contact me at [your-email@example.com].
+## Key Insights  
+- Gender distribution across education levels.  
+- Hiring and attrition trends (2015–2024).  
+- Salary ranges across departments and job titles.  
+- Performance ratings vs. overtime trends.  
+- Workforce distribution by state and city.  
+
+---
+
+## Dashboard / Output  
+- **Interactive Tableau Dashboard** with:  
+  - Workforce Overview  
+  - Hiring & Attrition Trends  
+  - Salary Distribution  
+  - Performance Analysis
+    
+https://public.tableau.com/views/HR_Dashboard_Summary/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+---
+
+## How to Run This Project  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/HR-Analytics-Tableau.git
+
+2.Open the Tableau workbook (HR_Analytics.twbx) in Tableau Desktop/Public.
+
+3.Explore the dashboard with filters and interactive elements.
+
+## Result & Conclusion
+
+The dashboard provides a 360° view of HR metrics, enabling recruiters and HR managers to identify trends, improve workforce planning, and make data-driven decisions.
+
+## Future Work
+Adding predictive analytics (attrition prediction).
+Integrating live HRIS data sources.
+Expanding to global employee datasets.
+
+## Author & Contact
+Sonu Raghuwanshi
+📧 Email: sonuraghu7222@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/sonu-raghuwanshi--

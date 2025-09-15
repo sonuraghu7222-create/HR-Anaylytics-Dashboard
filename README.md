@@ -61,6 +61,7 @@ HR departments often struggle with fragmented data and lack of visibility into e
   - Performance Analysis
     
 https://public.tableau.com/views/HR_Dashboard_Summary/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+<img width="1394" height="796" alt="Dashboard_Overview" src="https://github.com/user-attachments/assets/a86fd4e1-3aea-460b-b195-303ded5726e2" />
 
 ---
 

@@ -60,8 +60,10 @@ HR departments often struggle with fragmented data and lack of visibility into e
   - Salary Distribution  
   - Performance Analysis
     
-https://public.tableau.com/views/HR_Dashboard_Summary/HRSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-<img width="1394" height="796" alt="Dashboard_Overview" src="https://github.com/user-attachments/assets/a86fd4e1-3aea-460b-b195-303ded5726e2" />
+## Tableau Public Link:
+        https://public.tableau.com/app/profile/sonu.raghuwanshi3705/viz/HR_Dashboard_17580067968980/HRSummary?publish=yes
+## A qucik Glance:
+      <img width="1399" height="797" alt="Dashboard_Overview" src="https://github.com/user-attachments/assets/54cfa74f-db68-4cec-8c70-230f8790c980" />
 
 ---
 
